@@ -166,16 +166,27 @@ pyinstaller --onefile --console --name Game4096 main.py
 
 python-4096-game/
 ├── main.py                    # Главный файл игры
+
 ├── board.py                   # Логика игрового поля (класс Board)
+
 ├── game.py                    # Управление игровым процессом (класс Game)
+
 ├── constants.py               # Константы и настройки
+
 ├── requirements.txt           # Зависимости (стандартная библиотека)
+
 ├── Dockerfile                 # Конфигурация Docker
+
 ├── .dockerignore              # Игнорируемые файлы для Docker
+
 ├── check_docker.bat           # Проверка Docker (Windows)
+
 ├── .gitignore                 # Игнорируемые файлы для Git
+
 ├── .pre-commit-config.yaml    # Настройка pre-commit
+
 ├── README.md                  # Эта документация
+
 └── highscore.txt              # Файл с рекордом (создается автоматически)
 
 
