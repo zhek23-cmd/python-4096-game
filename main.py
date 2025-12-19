@@ -32,16 +32,12 @@ def display_grid(grid):
     print("\n" + "═" * 45)
     print(" " * 15 + "ИГРОВОЕ ПОЛЕ")
     print("═" * 45)
-
+    
     for row in grid:
         display_row = []
         for cell in row:
             if cell == 0:
                 display_row.append(colorize("  .  ", 0))
-            elif cell == -1:  # Бонус "×2"
-                display_row.append(colorize(" [×2] ", 0))
-            elif cell == -2:  # Бонус "💣"
-                display_row.append(colorize(" [💣] ", 0))
             else:
                 text = f"{cell:^5}"
                 display_row.append(colorize(text, cell))
