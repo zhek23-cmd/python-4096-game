@@ -25,6 +25,8 @@
 
 # Клонируйте репозиторий
 git clone https://github.com/zhek23-cmd/python-4096-game.git
+
+# Перейдите в папку проекта
 cd python-4096-game
 
 # Запустите игру
