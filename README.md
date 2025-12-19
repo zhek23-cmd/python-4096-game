@@ -38,6 +38,7 @@ python main.py
 
 # Клонируйте репозиторий
 git clone https://github.com/zhek23-cmd/python-4096-game.git
+
 cd python-4096-game
 
 # Сборка образа
@@ -119,6 +120,7 @@ check_docker.bat
 
 # Клонирование репозитория
 git clone https://github.com/zhek23-cmd/python-4096-game.git
+
 cd python-4096-game
 
 # Установка зависимостей для разработки
